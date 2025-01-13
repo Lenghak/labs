@@ -3,7 +3,7 @@ use std::io::{self, Write};
 fn main() {
     println!("Guess the number!");
     print!("Please input your guess: ");
-    let _ = io::stdout().flush().unwrap();
+    io::stdout().flush().unwrap_or_default();
 
     let mut guess = String::new();
 
