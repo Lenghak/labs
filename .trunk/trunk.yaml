@@ -13,22 +13,21 @@ plugins:
 runtimes:
   enabled:
     - node@18.20.5
-    - python@3.10.8
+    - rust@1.65.0
 # This is the section where you manage your linters. (https://docs.trunk.io/check/configuration)
 lint:
   enabled:
     - biome@1.9.4
-    - checkov@3.2.353
     - clippy@1.65.0
     - git-diff-check
-    - osv-scanner@1.9.2
     - rustfmt@1.65.0
-    - taplo@0.9.3
-    - trufflehog@3.88.2
     - yamllint@1.35.1
-actions:
-  enabled:
-    - trunk-announce
-    - trunk-check-pre-push
-    - trunk-fmt-pre-commit
-    - trunk-upgrade-available
+  ignore:
+    - linters: [ALL]
+      paths:
+        # Ignore generated files
+        - .trunk/**
+        - .gitignore
+        - .husky/**
+        - bun.lockb
+        # Except for files ending in .foo
