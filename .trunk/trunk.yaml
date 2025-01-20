@@ -12,11 +12,13 @@ plugins:
 # Many linters and tools depend on runtimes - configure them here. (https://docs.trunk.io/runtimes)
 runtimes:
   enabled:
+    - python@3.10.8
     - node@18.20.5
     - rust@1.65.0
 # This is the section where you manage your linters. (https://docs.trunk.io/check/configuration)
 lint:
   enabled:
+    - taplo@0.9.3
     - biome@1.9.4
     - clippy@1.65.0
     - git-diff-check
