@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "targetDefaults": {
+    "trunk": {
+      "cache": true
+    },
+    "lint": {
+      "cache": true
+    },
+    "fmt": {
+      "cache": true
+    }
+  }
+}
