@@ -1,0 +1,14 @@
+{
+  "name": "labs",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@trunkio/launcher": "^1.3.4",
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "trunk": "trunk",
+    "lint": "trunk check",
+    "fmt": "trunk fmt"
+  }
+}
