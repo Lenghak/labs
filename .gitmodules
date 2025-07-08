@@ -1,0 +1,9 @@
+[submodule "kotlin"]
+	path = kotlin
+	url = https://github.com/Lenghak/labs.git
+[submodule "rust"]
+	path = rust
+	url = https://github.com/Lenghak/labs.git
+[submodule "java"]
+	path = java
+	url = https://github.com/Lenghak/labs.git
