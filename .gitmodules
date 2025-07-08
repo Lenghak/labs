@@ -1,4 +1,0 @@
-[submodule "kotlin"]
-	path = kotlin
-	url = https://github.com/Lenghak/labs.git
-	branch = kotlin

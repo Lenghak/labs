@@ -1,6 +1,0 @@
-{
-  "editor.defaultFormatter": "trunk.io",
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "always"
-  }
-}
