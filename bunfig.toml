@@ -1,0 +1,9 @@
+[workspace]
+packages = ["kotlin/*"]
+
+[install]
+linkWorkspacePackages = true
+
+[run]
+shell = "bun"
+bun = true

@@ -1,0 +1,19 @@
+{
+  "name": "@kotlin/hello-world",
+  "targets": {
+    "add": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "bun add {args.dependency}",
+        "cwd": "kotlin/hello-world"
+      }
+    },
+    "remove": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "bun remove {args.dependency}",
+        "cwd": "kotlin/hello-world"
+      }
+    }
+  }
+}
