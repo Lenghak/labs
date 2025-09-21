@@ -1,0 +1,68 @@
+{
+  "name": "@rust/hello-cargo",
+  "targets": {
+    "add": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "cargo add {args.dependency}",
+        "cwd": "rust/hello_cargo"
+      }
+    },
+    "remove": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "cargo remove {args.dependency}",
+        "cwd": "rust/hello_cargo"
+      }
+    },
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "cargo run",
+        "cwd": "rust/hello_cargo"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "cargo build",
+        "cwd": "rust/hello_cargo"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "cargo test",
+        "cwd": "rust/hello_cargo"
+      }
+    },
+    "check": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "cargo check",
+        "cwd": "rust/hello_cargo"
+      }
+    },
+    "lint": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "cargo clippy -- -D warnings",
+        "cwd": "rust/hello_cargo"
+      }
+    },
+    "format": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "cargo fmt",
+        "cwd": "rust/hello_cargo"
+      }
+    },
+    "format-check": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "cargo fmt -- --check",
+        "cwd": "rust/hello_cargo"
+      }
+    }
+  }
+}

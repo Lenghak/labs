@@ -1,0 +1,10 @@
+{
+  "name": "@rust/guessing-game",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "cargo run",
+    "build": "cargo build",
+    "test": "cargo test",
+    "check": "cargo check"
+  }
+}
