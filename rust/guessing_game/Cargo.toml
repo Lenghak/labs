@@ -1,7 +1,6 @@
 [package]
-name = "hello-world"
+name = "guessing_game"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-serde = "1.0.226"

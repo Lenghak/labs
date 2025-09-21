@@ -1,7 +1,7 @@
 {
-  "editor.defaultFormatter": "trunk.io",
   "editor.codeActionsOnSave": {
-    "source.fixAll": "always"
+    "source.fixAll": "explicit",
   },
+  "editor.formatOnSave": false,
   "nxConsole.generateAiAgentRules": true
 }

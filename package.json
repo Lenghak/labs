@@ -1,7 +1,6 @@
 {
   "name": "labs",
   "devDependencies": {
-    "@trunkio/launcher": "^1.3.4",
     "@types/bun": "latest",
     "nx": "^21.5.3"
   },
@@ -9,10 +8,10 @@
   "packageManager": "bun@1.2.22",
   "private": true,
   "scripts": {
-    "trunk": "trunk",
-    "lint": "trunk check",
-    "fmt": "trunk fmt",
-    "dev": "echo ROOT WORKSPACE"
+    "lint:all": "nx run-many --target=lint --all",
+    "format:all": "nx run-many --target=format --all",
+    "format-check:all": "nx run-many --target=format-check --all",
+    "dev:all": "nx run-many --target=dev --all"
   },
   "type": "module",
   "workspaces": {
