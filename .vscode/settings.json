@@ -3,5 +3,6 @@
     "source.fixAll": "explicit",
   },
   "editor.formatOnSave": false,
-  "nxConsole.generateAiAgentRules": true
+  "nxConsole.generateAiAgentRules": true,
+  "kiroAgent.configureMCP": "Disabled"
 }
