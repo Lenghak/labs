@@ -14,6 +14,18 @@
     "rust/book": {
       "name": "@rust/book",
     },
+    "rust/guessing_game": {
+      "name": "@rust/guessing-game",
+      "version": "0.1.0",
+    },
+    "rust/hello_cargo": {
+      "name": "@rust/hello-cargo",
+      "version": "0.1.0",
+    },
+    "rust/hello_world": {
+      "name": "@rust/hello-world",
+      "version": "0.1.0",
+    },
   },
   "packages": {
     "@emnapi/core": ["@emnapi/core@1.4.4", "", { "dependencies": { "@emnapi/wasi-threads": "1.0.3", "tslib": "^2.4.0" } }, "sha512-A9CnAbC6ARNMKcIcrQwq6HeHCjpcBZ5wSx4U01WXCqEKlrzB9F9315WDNHkrs2xbx7YjjSxbUYxuN6EQzpcY2g=="],
@@ -53,6 +65,12 @@
     "@nx/nx-win32-x64-msvc": ["@nx/nx-win32-x64-msvc@21.5.3", "", { "os": "win32", "cpu": "x64" }, "sha512-bEQxvsglGInSi51HJUJ7X1lqekzn5xAOddY4tpmOzBXVadx4fuMT8X/PLDLorAAShNZ36g/7sYbtWaBuJNz3tQ=="],
 
     "@rust/book": ["@rust/book@workspace:rust/book"],
+
+    "@rust/guessing-game": ["@rust/guessing-game@workspace:rust/guessing_game"],
+
+    "@rust/hello-cargo": ["@rust/hello-cargo@workspace:rust/hello_cargo"],
+
+    "@rust/hello-world": ["@rust/hello-world@workspace:rust/hello_world"],
 
     "@sinclair/typebox": ["@sinclair/typebox@0.34.41", "", {}, "sha512-6gS8pZzSXdyRHTIqoqSVknxolr1kzfy4/CeDnrzsVz8TTIWUbOBr6gnzOmTYJ3eXQNh4IYHIGi5aIL7sOZ2G/g=="],
 
