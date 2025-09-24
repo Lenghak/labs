@@ -1,0 +1,8 @@
+[package]
+name = "bottle_song"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+capitalize = "0.3.4"
+num-to-words = "0.1.1"
