@@ -1,0 +1,13 @@
+[workspace]
+resolver = "3"
+members = [
+  "armstrong_numbers",
+  "backyard",
+  "bottle_song",
+  "clock",
+  "gigasecond",
+  "guessing_game",
+  "hello_world",
+  "rectangles",
+  "reverse",
+]
