@@ -205,3 +205,17 @@ fn different_characters_may_have_the_same_bytes() {
 
     assert_eq!(output, expected);
 }
+
+#[test]
+fn checksum_false_positive() {
+    let word = "ad";
+    let candidates = vec!["bc"];
+    let result = anagrams_for(word, &candidates);
+
+    // This should fail with your current checksum approach,
+    // because "ad" and "bc" are not anagrams.
+    assert!(
+        result.is_empty(),
+        "False positive: 'bc' was incorrectly marked as an anagram of 'ad'"
+    );
+}

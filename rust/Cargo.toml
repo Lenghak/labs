@@ -1,6 +1,7 @@
 [workspace]
 resolver = "3"
 members = [
+  "anagram",
   "armstrong_numbers",
   "backyard",
   "bottle_song",
