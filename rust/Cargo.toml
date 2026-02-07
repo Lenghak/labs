@@ -11,4 +11,5 @@ members = [
   "hello_world",
   "rectangles",
   "reverse",
+  "space_age",
 ]
